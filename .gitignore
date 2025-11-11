@@ -1,0 +1,82 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# === Java / Spring Boot ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# === Maven ===
+/target/
+/.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+!/.mvn/wrapper/maven-wrapper.jar  # sometimes needed if you want to keep wrapper JAR
+!/.mvn/wrapper/maven-wrapper.properties
+
+# === Gradle ===
+/build/
+/.gradle/
+/out/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Logs / Temp Files ===
+logs/
+tmp/
+*.tmp
+*.bak
+
+# === Environment & Secrets ===
+.env
+application-*.yml
+application-*.properties
+# You can whitelist the default config:
+!src/main/resources/application.yml
+!src/main/resources/application.properties
+
+# === Test Reports ===
+/test-output/
+/surefire-reports/
+/jacoco.exec
+
+# === Misc ===
+# Ignore any generated metadata
+META-INF/
